@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <style>
+      .container > * + * {
+        margin-top: 2rem;
+      }
+
+      section {
+        border: 5px solid blue;
+        height: 100vh;
+        margin: 1rem;
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Relative path (Link to about.html) -->
+      <div>
+        <a href="./about.html">Go to About Page</a>
+      </div>
+
+      <!-- Absolute path (Link to https://sigmaschool.co/) -->
+      <div>
+        <a href="https://sigmaschool.co/">Join Sigma with promo code <big>SIGMAjq2xrn</big></a>
+      </div>
+
+      <!-- Email -->
+      <div>
+        <a href="mailto:shafiqnazrin5@gmail.com">Email Me!</a>
+      </div>
+
+      <!-- Open in new tab -->
+      <div>
+        <a href="https://linktr.ee/ShazrinFinance" target="blank">Open in New Tab</a>
+      </div>
+
+      <!-- Navigate Sections -->
+      <div>
+        <nav>
+          <a href="#section-1">Section 1</a>
+          <a href="#section-2">Section 2</a>
+          <a href="#section-3">Section 3</a>
+        </nav>
+
+        <section id="section-1" class="section">I am Section 1, okay</section>
+        <section id="section-2" class="section">I am Section 2, alright</section>
+        <section id="section-3" class="section">I am Section 3, cuck</section>
+      </div>
+    </div>
+  </body>
+</html>
