@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Building Structure</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+      <ul>
+        <li>Home</li>
+        <li>Article</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    </header>
+
+    <aside>
+      <p>
+        Check out my amazing site, suckers
+    </p>
+  </aside>
+
+    <article>
+      <h2>
+        Why I can learn this SHIT
+      </h2>
+      <p>
+         I am AWESOME
+      </p>
+    </article>
+
+    <section>
+      <h2>
+        Contact Us!
+      </h2>
+    </section>
+
+    <footer>
+      <small>Made By</small>
+      <big>
+        Shazrin The Great
+      </big>
+    </footer>
+  </body>
+</html>
