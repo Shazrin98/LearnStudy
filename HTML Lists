@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">    
+  <head>        
+    <meta charset="UTF-8" />        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
+    <title>HTML Lists</title>    
+  </head>    
+  <body>        
+    <!-- Unordered List -->
+        <ul>
+          <li>Green Hornet</li>
+          <li>Ender's Game</li>
+          <li>John Wick</li>
+        </ul>
+    <!-- Ordered List -->
+    <p>How to make an omelette</p>
+        <ol>
+          <li>Grab some eggs</li>
+          <li>Break them onto a frying pan</li>
+          <li>Stir and spread them until fried</li>
+          <li>Roll it up before serving</li>
+        </ol>
+    <!-- Description List -->
+        <dl>
+          <dt>Unordered List</dt>
+          <dd>Use to create a list of related items, in no particular order</dd>
+          <dt>Ordered List</dt>
+          <dd>Use to create a list of related items, in a specific order</dd>
+          <dt>Description List</dt>
+          <dd>Use to create a list of terms and their descriptions</dd>
+        </dl>
+  </body>
+</html>
