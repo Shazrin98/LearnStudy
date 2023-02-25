@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">    
+  <head>        
+    <meta charset="UTF-8" />        
+    <meta data-fr-http-equiv="X-UA-Compatible" content="IE=edge" />        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
+    <title>HTML Forms</title>    
+    <style>
+      form > * + * {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>    
+  <body>        
+    <form>            
+      <div>                
+        <!-- First Name -->   
+        <label for="firstName">
+          First Name
+          <input name="firstName" type="text">
+        </label>
+        
+      </div>
+            
+      <div>                
+        <!-- Last Name -->      
+        <label for="lastName">
+          Last Name
+          <input name="lastName" type="text">
+        </label>      
+      </div>
+            
+      <div>                
+        <!-- Address -->  
+        <label for="address">
+          Address
+          <input name="address" type="text">
+        </label>
+      </div>
+            
+      <div>                
+        <!-- State -->    
+        <label for="state">
+          State
+          <select name="state" id="state">
+            <option value="a">State A</option>
+            <option value="b">State B</option>
+            <option value="c">State C</option>
+          </select>
+        </label>
+      </div>
+            
+      <div>                
+        <!-- Password -->      
+        <label for="password">
+          Password
+          <input name="password" type="password">
+        </label>
+      </div>
+            
+      <div>                
+        <!-- Gender -->     
+        <label for="gender">
+          Gender
+          <input name="gender" type="radio"> Male
+          <span> /</span>
+          <input name="gender" type="radio"> Female
+        </label>
+      </div>
+            
+      <div>                
+        <!-- Do you bleat like a sheep? -->    
+        <label>
+          Do you bleat like a sheep?
+          <input type="checkbox"> Yes
+        </label>        
+      </div>
+            
+      <div>                
+        <!-- How many cups of coffee do you drink a day? -->    
+        <label for="cups">
+          How many cups of coffee do you drink a day?
+          <div>
+            <input name="cups" type="radio"> 0 to 2 Cup(s)
+            <input name="cups" type="radio"> 2 to 4 Cups
+          </div>
+          <div>
+            <input name="cups" type="radio"> 4 to 8 Cups
+            <input name="cups" type="radio"> 8 to 16 Cups
+          </div>
+        </label>
+      </div>
+            
+      <div>                
+        <!-- Do you own a personal computer? -->
+        <label for="hasComputer">
+          Do you own a personal computer?
+          <select name="hasComputer" id="hasComputer">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+          </select>
+        </label>
+      </div>
+            
+      <div>                
+        <!-- How long would it take to create a HTML Form? -->  
+        <label for="duration">
+          How long would it take to create a HTML Form?
+          <input name="duration" type="text">
+        </label>
+      </div>
+            
+      <div>                
+        <!-- Comments -->  
+        <label for="comments">
+          Comments
+          <div>
+            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+          </div>
+        </label>
+      </div>
+            
+      <div>                
+        <!-- Reset Button -->     
+        <input type="reset" value="Erase/Reset">
+        <!-- Submit Button -->      
+        <button type="submit" >Send Survey </button>
+      </div>        
+    </form>    
+  </body>
+</html>
