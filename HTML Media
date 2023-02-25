@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">    
+  <head>        
+    <meta charset="UTF-8" />        
+    <meta data-fr-http-equiv="X-UA-Compatible" content="IE=edge" />        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />        
+    <title>HTML Medias</title>    
+  </head>    
+  <body>        
+    <!-- Selfie (Image) -->
+    <div>
+      <img src="https://scontent.fkul3-2.fna.fbcdn.net/v/t39.30808-6/318450113_2247690045402704_7971089379651270242_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=lKzmWQmD2wQAX94mo6e&_nc_ht=scontent.fkul3-2.fna&oh=00_AfBSZTC8TaCcFeXsg5AqGe_attZnYf-TsIip9nX5KmS3hw&oe=63FF9034"
+      alt="Shafiq Nazrin's Picture"
+      />
+    </div>
+
+    <div>
+      <!-- Favorite Music (Audio) -->
+      <audio src="https://tuna.voicemod.net/sound/6ae918a3-fa8e-468d-882a-7fba4be359bf" controls>
+        <!-- any fallback content goes in here -->
+      </audio>
+    </div>
+
+    <!-- Random Video (Video) -->    
+    <div>            
+      <video src="https://youtu.be/dQw4w9WgXcQ" controls>
+        <!-- any fallback content goes in here -->
+      </video>        
+    </div>
+
+    <!-- Favorite Music's MV (Inline Frame) -->
+    <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen
+    ></iframe>
+  </body>
+</html>
